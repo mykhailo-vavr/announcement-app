@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #3e3e47;
+  padding: 15px 3%;
+  border-radius: 5px;
+  background: #fff;
+  height: 55px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  .btn_container {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 5px;
+    visibility: hidden;
+  }
+
+  &:hover .btn_container {
+    visibility: visible;
+  }
+}

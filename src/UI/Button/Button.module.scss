@@ -1,0 +1,14 @@
+.button {
+  padding: 8px;
+  border: 1.5px solid #61dafb;
+  color: #61dafb;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5px;
+
+  &:active {
+    color: #fff;
+    background: #61dafb;
+  }
+}

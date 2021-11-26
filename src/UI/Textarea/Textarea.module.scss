@@ -1,0 +1,22 @@
+.textarea {
+  border: 1px solid #61dafb;
+  padding: 7px 10px;
+  border-radius: 5px;
+  caret-color: #61dafb;
+  resize: none;
+  width: auto;
+  font-family: 'Roboto';
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #61dafb;
+    width: 2px;
+  }
+}

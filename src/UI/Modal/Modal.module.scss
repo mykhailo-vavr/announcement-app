@@ -1,0 +1,38 @@
+$transitionTime: 0.7s;
+
+.modal_overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: $transitionTime;
+  z-index: 100;
+  cursor: pointer;
+  transition: 1s;
+  visibility: visible;
+
+  &_hide {
+    cursor: initial;
+    visibility: hidden;
+  }
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  cursor: initial;
+  width: 30vw;
+  min-width: 320px;
+  background: #fff;
+  color: #757575;
+  margin: 10% auto 100px;
+  border-radius: 10px;
+  transition: $transitionTime;
+
+  &_hide {
+    margin-top: -200px;
+  }
+}
